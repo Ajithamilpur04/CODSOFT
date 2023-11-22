@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+body{
+    font-family: 'Lato',sans-serif;
+    background-color: #d8dbdb;
+    font-size: 16px;
+    max-width: 790px;
+    margin: 0 auto;
+    padding: 2%;
+    color: #565859;
+}
+.wrapper{
+    background-color: #f6faff;
+    box-shadow: 0 0 10px #666;
+}
+
+img{
+    max-width: 100%;
+}
+.logo{
+    padding: 1% 0;
+    text-align: center;
+}
+h1,h2{
+    letter-spacing: 1px;
+    padding-bottom: 15px;
+}
+p{
+    line-height: 28px;
+    padding-bottom: 25px; 
+}
+.btn{
+    background:#303840;
+    color: #fff;
+    text-decoration: none;
+    font-weight: 800;
+    padding: 10px 14px;
+    border-radius: 8px;
+    letter-spacing: 2px;
+}
+.one-col{
+    padding: 20px 0 40px;
+    text-align: center;
+}
+.line{
+    clear: both;
+    height: 1px;
+    background-color: #303840;
+    margin: 15px auto 10px;
+    width: 98%;
+}
+.two-col{
+    margin: 10px 0 26px;
+    float: left;
+    width: 46%;
+    padding: 5% 2%;
+
+}
+.brands{
+    margin-left: auto;
+    margin-right: 65px;
+    width: 50%;
+    align-items: center;
+}
+.col-5{
+    width: 160px;
+}
+.contact{
+    text-align: center;
+    padding-bottom:6%; 
+}
+
+@media (max-width: 600px) {
+    body{
+        padding: 1%;
+    }
+    .two-col{
+        min-width: 96;
+    }
+    
+}
